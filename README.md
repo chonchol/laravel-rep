@@ -4,7 +4,12 @@ This is event ticketing application file. It's have complex functionality with a
 
 # TicketModal
 
-TicketModal is for tickets table. Here i have created some eloquent relationship to other table here. And set some fix attribute here to calculation same thing easily in the controller.
+TicketModal is for tickets table. Here i have created some eloquent relationship to other table here. And set some fix attribute here to calculation same thing easily in the controller. Such as below code for SalesStartDate format:
+
+    public function getSalesStartDateAttribute($value)
+    {
+        return date("m/d/Y h:i A", $value);
+    }
 
 # TicketController
 
