@@ -1,1 +1,1 @@
-# This is event ticketing application file. It's have complex functionality with all ecommerce feature. I have done some modules of this application. Here i have just give one controller file and modal file to show you how i work.
+This is event ticketing application file. It's have complex functionality with all ecommerce feature. I have done some modules of this application. Here i have just give one controller file and modal file to show you how i work. This controller work for tickets how will be size of PDF ticketing and show ticket with complex query.
